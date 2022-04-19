@@ -9,8 +9,8 @@ with io.open('README.md', encoding='utf_8') as fp:
 setup(
     author="Andreas Mueller",
     author_email="t3kcit+wordcloud@gmail.com",
-    name='wordcloud',
-    version=versioneer.get_version(),
+    name='wordcloud-that-works',
+    version="3.0.0",
     cmdclass=versioneer.get_cmdclass(),
     url='https://github.com/amueller/word_cloud',
     description='A little word cloud generator',
